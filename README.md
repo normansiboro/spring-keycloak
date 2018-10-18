@@ -3,11 +3,11 @@
 ## Keycloak:
 1. Download keycloak from https://www.keycloak.org/downloads.html
 2. Extract the files into your prefered directory
-3. Go to the keycloak directory and find directory bin. Run the standalone.sh by executing command
+3. Go to the keycloak directory and find directory bin. Run the standalone.sh by executing the following command on command prompt
 ```
 standalone.sh
 ```
-   Basically keycloak will run at port 8080 and if you want to change the port you can run this command (example: port 8180)
+   By Default keycloak will run at port 8080 and if you want to change the port you can run this command (example: port 8180)
 ```
 standalone.sh -Djboss.socket.binding.port-offset=100
 ```
