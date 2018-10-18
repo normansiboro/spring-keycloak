@@ -17,9 +17,9 @@ standalone.sh -Djboss.socket.binding.port-offset=100
 7. Create some roles
 8. Create some user
 9. Create Mapping role for user
-Note: Step 5-9 can be handled by importing real-export.json file to keycloak
+* Note: Step 5-9 can be handled by importing real-export.json file to keycloak
 
-## Run Spring Keycloak:
+## Run Back-end apps:
 To run the project with embedded Tomcat by maven:
 ```
 cd spring-keycloak
